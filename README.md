@@ -24,4 +24,11 @@ Note, you will also need to link with glfreetype_lib during the linking stage of
 target_link_libraries(executableName some_lib some_other_lib etc_lib glfreetype_lib ${OPENGL_LIBRARIES} glfw ${FREETYPE_LIBRARIES})
 ```
 
-More to follow.
+## Please check out the test binary (build from the source root with):
+
+```
+mkdir build
+cd build
+cmake ..
+make
+```
