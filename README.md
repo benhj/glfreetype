@@ -1,11 +1,13 @@
 # glfreetype
 Another OpenGL FreeType library
 
-I needed the ability to display text in OpenGL. I discovered FreeType and the following NeHe tutorial:
+I needed to display text in OpenGL. Other libraries were simply too massive for my needs/there were no clear examples. I discovered FreeType and the following NeHe tutorial:
 
 http://nehe.gamedev.net/tutorial/freetype_fonts_in_opengl/24001/
 
-The repository here is basically a simple amalgamation of those ideas.
+The repository here is basically a simple amalgamation of those ideas. The end result is that you can use arbitrary .ttf fonts, e.g. using Arial.ttf which on my mac is located under /Library/fonts/:
+
+![Image of test example](https://github.com/benhj/glfreetype/blob/master/wintest.png)
 
 Assuming a cmake build system, clone this repository into your source tree and add the following lines to your CMakeLists.txt file:
 
